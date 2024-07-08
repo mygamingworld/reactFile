@@ -1,0 +1,579 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+nav {
+  width: 100%;
+  height: 5rem;
+  position: sticky;
+  top: 0%;
+  z-index: 60;
+  padding: 1rem 6rem;
+  background:linear-gradient(#22c1c3, #fdbb2d);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    height: 4rem;
+    filter: drop-shadow(1px 1px 10px white );
+  }
+  #link1 ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+  }
+
+  #link1 ul li:hover {
+      color: #22c1c3;
+      font-style: italic;
+  }
+  #link {
+    display: none;
+  }
+}
+
+
+.content-box {
+  width: 100%;
+  height: 90vh;
+  padding: 3rem 5rem;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+  div {
+    text-align: left;
+    h3 {
+        font-weight: 600;
+    }
+    h1 {
+      font-size: 5rem;
+      font-weight: 550;
+      padding: 2rem 0;
+      line-height: 5rem;
+      letter-spacing: 2px;
+    }
+    p {
+      color: #282c34;
+      font-weight: 500;
+    }
+    img {
+      width: 350px;
+    }
+  }
+}
+
+
+.content-box2 {
+  height: 25vh;
+  padding: 0 5rem;
+    #brands-box {
+      height: 100%;
+      display: flex;
+      border-top: 4px solid gray;
+      border-bottom: 4px solid gray;
+      justify-content: center;
+      align-items: center;
+      gap: 8rem;
+    }
+}
+
+ .container {
+  .box {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  img {
+    width: 150px;
+  }
+}
+
+}
+
+
+#WorkAddContainer {
+    height: auto;
+    #heading001 {
+      font-size: 2rem;
+      padding-bottom: 2rem;
+    }
+    #workAdd {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+
+      div {
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        img {
+          width: 90%;
+          cursor: pointer;
+        }
+        .box {
+          width: 350px;
+          margin: 0 2.3rem;
+          gap: 1rem;
+          overflow: hidden;
+        }
+        img:hover {
+          transform: rotateX(20deg);
+          opacity: .8;
+        }
+
+      }
+
+    }
+}
+
+
+.content-box {
+  .container {
+    .clientCard {
+      width: 300px;
+      height: 350px;
+      background: linear-gradient(lightcyan , white, gray);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 3px 3px 10px gray;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        gap: 3rem;
+        img {
+          width: 5rem;
+          height: 5rem;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+
+footer {
+  .container {
+    display: flex;
+    gap: 0;
+    border-top: 4px solid gray;
+    .formBox{
+      width: 50%;
+      height: 100%;
+      padding: 2rem 5rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-direction: column;  
+      h2 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+      }
+      p {
+        line-height: 1.9rem;
+      }
+      #icon {
+        margin-top: 2rem;
+      }
+      img {
+        width: 2rem;
+      }
+      input {
+        width: 100%;
+        height: 4rem;
+        padding: 1rem;
+        border: 1px solid lightgray;
+        border-radius: 1rem;
+        outline: none;
+      }
+      #inpMsg {
+        height: 8rem;
+      }
+      button {
+        width: 140px;
+        height: 3rem;
+        border: none;
+        border-radius: 4px;
+        background-color: lightgreen;
+        border: 1px solid lightgreen;
+        cursor: pointer;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      button:hover {
+        background-color: white;
+        color: lightgreen;
+      } 
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 1190px) {
+
+    nav {
+      padding:1rem 2rem;
+      ul {
+        gap: 2rem;
+      }
+    }
+
+
+    .content-box {
+      height: auto;
+    }
+    .container {
+      flex-wrap: wrap;
+      gap: 3rem;
+      div {
+        text-align: center;
+        h1 {
+          font-size: 4rem;
+        }
+        img {
+          width: 350px;
+        }
+      }
+    }
+
+    .content-box2 {
+      height: auto;    
+        #brands-box {
+          padding: 2rem 0;
+          height: auto;
+          flex-wrap: wrap;
+          gap: 3rem;
+        }
+    }
+
+
+
+    #WorkAddContainer {
+
+      #workAdd {  
+        div {
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          .box {
+            width: 350px;
+            margin: 0 1rem;
+          }
+        }
+  
+      }
+  }   
+
+
+  .content-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    .container {
+      .clientCard {
+        width: 270px;
+        height: 340px;
+        padding: 1rem;
+      }
+    }
+  }
+  
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 710px) {
+
+  nav {
+    padding:1rem 2rem;
+    justify-content: center;
+    position: relative;
+    position: sticky;
+    top: 0%;
+    #link1 ul {
+      display: none;
+    }
+    #link {
+      position: absolute;
+      display: contents;
+      display: flex;
+      top: 100%;
+      left: 0%;
+      right: 0%;
+      ul {
+        width: 100%;
+        height: auto;
+        background-color: #343724;
+        color: white;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        padding: 1rem;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      ul li:hover {
+        color:#22c1c3;
+      }
+    }
+  }
+
+
+
+  .content-box {
+    height: auto;
+    padding: 1rem;
+    padding-top: 5rem;
+  }
+  .container {
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-top: 3rem;
+    div {
+      text-align: center;
+      h1 {
+        font-size: 3rem;
+        padding: .5rem 0;
+        font-weight: 700;
+        line-height: 70px;
+      }
+      img {
+        width: 250px;
+      }
+    }
+  }
+
+
+  .content-box2 {
+    height: auto;    
+      #brands-box {
+        text-align: center;
+        padding: 1rem 0;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+  }
+
+
+
+  #WorkAddContainer {
+    padding: 0%;    
+    #workAdd {  
+      div {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .box {
+          width: 330px;
+          margin: 0;
+        }
+      }
+
+    }
+}
+
+
+
+.content-box {
+  .container {
+    .clientCard {
+      width: 270px;
+      height: 340px;
+      padding: 1rem;
+    }
+  }
+}
+
+
+
+
+
+footer {
+  .container {
+    gap: 2rem;
+    flex-direction: column;
+    .formBox{
+      width: 100%;
+      height: auto;
+      padding: .5rem;
+      flex-direction: column;        
+    }
+  }
+}
+
+
+}
